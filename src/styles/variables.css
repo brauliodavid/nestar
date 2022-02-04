@@ -1,0 +1,20 @@
+/** CSS Variables **/
+:root {
+  --font-family: 'Lucifer Sans';
+
+  --text-line-height: 1.5em;
+  --letter-spacing: -1;
+
+  /** Colors **/
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-blue: #17285B;
+  --color-cyan: #92B0B7;
+  --color-red: #590000;
+  --color-purple: #34254C;
+  --color-green: #2F3D2A;
+  
+  --color-light-red: #E6C1B6;
+  --color-light-purple: #B59FDD;
+  --color-light-green: #C5DAB0;
+}

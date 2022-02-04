@@ -1,0 +1,48 @@
+.header {
+    position: absolute;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.logo {
+    width: 120px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-lang {
+    margin: 0 70px;
+    position: relative;
+}
+
+.nav-menu {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-item {
+    margin: 0 8px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item.active:after {
+    content: "";
+}
+
+.nav-lang .path {
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    bottom: -4px;
+    left: 8px;
+}
